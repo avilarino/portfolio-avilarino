@@ -43,7 +43,6 @@ body {
 }
 
 .container {
-    padding: 5px;
     padding-bottom: 0px
 }
 
@@ -123,10 +122,15 @@ h3 {
     color: white;
     padding: 10px;
     border-radius: 5px;
-    margin-top: 50px;
-    width: 160px;
-    margin-bottom: 40px;
+    position: relative;
+    top: 10px;
+    width: 30%;
    
+}
+
+.button-orange-style:hover {
+    text-decoration: none;
+    color: white
 }
 
 .container-image {
@@ -361,11 +365,22 @@ h3 {
     align-items: center;
 }
 
+/* footer */
+
+footer img {
+    width: 100%
+}
+
 
 
 /* breackpoints */
 
 @media only screen and (min-width: 900px) {
+
+    .button-orange-style {
+        width: 330px
+    }
+
 
    .display-media {
         width: 100%;
@@ -404,11 +419,14 @@ h3 {
         align-items: center;
    }
 
-.container-projects {
+    .container-projects {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-     
-}
+     }
+
+     .project {
+        margin: 5px
+     }
 
 }

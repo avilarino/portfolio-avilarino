@@ -42,9 +42,6 @@ body {
     letter-spacing: 1px;
 }
 
-.container {
-    padding-bottom: 0px
-}
 
 .container-welcome {
     display: flex;
